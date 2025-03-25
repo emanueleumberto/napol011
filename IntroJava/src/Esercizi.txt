@@ -7,7 +7,6 @@ Implementare i seguenti metodi:
 -   concatena   -> Prende in ingresso 4 valori (somma, moltiplica, sottrai, dividi) e stampa nel terminale
                     una stringa con tutti i valori calcolati dai metodi precedenti
 
-
 Esercizio #2
 Scrivere i seguenti metodi:
 IF ELSE
