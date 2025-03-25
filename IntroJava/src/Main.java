@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
         // commento a linea singola
         // ctrl + / -> Commento a singola linea
@@ -10,7 +11,7 @@ public class Main {
             multi
             linea
          */
-        // ctrl + shift + / -> Commento multiliea
+        // ctrl + shift + / -> Commento multilinea
 
         /**
          *
@@ -49,9 +50,9 @@ public class Main {
         double f = 5.2;
 
         int x, y, z;
-        x= 1;
-        y= 2;
-        z= 3;
+        x = 1;
+        y = 2;
+        z = 3;
 
         // Definire una costante in java
         final int CONST = 25;
@@ -80,7 +81,7 @@ public class Main {
 
         System.out.println(strs[1]);
 
-        int[] nums = {1,2,3,4,5};
+        int[] nums = {1, 2, 3, 4, 5};
         nums[4] = 10;
 
         System.out.println(nums[1]);
@@ -93,8 +94,8 @@ public class Main {
 
         int n1 = 10;
         int n2 = 3;
-        System.out.println(n1/n2);
-        System.out.println(n1%n2);
+        System.out.println(n1 / n2);
+        System.out.println(n1 % n2);
 
         double r = (double) n1 / n2;
         System.out.println(r);
@@ -149,15 +150,45 @@ public class Main {
         // in grado di richiere dati tramite terminale
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Inserisci il tuo nome");
-        String nome = sc.nextLine();
-        System.out.println("Inserisci la tua età");
+        //System.out.println("Inserisci il tuo nome");
+        //String nome = sc.nextLine();
+        //System.out.println("Inserisci la tua età");
         //int eta = sc.nextInt();
         //sc.nextLine();
-        int eta = Integer.parseInt(sc.nextLine());
-        System.out.println("Inserisci la città di nascita");
-        String city = sc.nextLine();
-        System.out.println("Ciao " + nome + " anni: " + eta + " città: " + city);
+        //int eta = Integer.parseInt(sc.nextLine());
+        //System.out.println("Inserisci la città di nascita");
+        //String citta = sc.nextLine();
+        //System.out.println("Ciao " + nome + " anni: " + eta + " città: " + citta);
+
+        // Metodo di una classe
+        // modificatore tipoDiRitorno nomeMetodo(tipoParametro nomeParamentro) {
+        // blocco di istruzioni }
+
+        //somma1(); // eseguo il metodo con nome somma()
+        somma2(10, 15);
+        int res = somma3(10, 15);
+        System.out.println(res);
 
     }
+
+    public static void somma1() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Inserisci un numero: ");
+        int x1 = Integer.parseInt(sc.nextLine());
+        System.out.print("Inserisci un secondo numero: ");
+        int x2 = Integer.parseInt(sc.nextLine());
+        int result = x1 + x2;
+        System.out.println("Il risultato della somma tra " + x1 + " e " + x2 + " è " + result);
+    }
+
+    public static void somma2(int num1, int num2) {
+        int result = num1 + num2;
+        System.out.println("Il risultato della somma tra " + num1 + " e " + num2 + " è " + result);
+    }
+
+    public static int somma3(int num1, int num2) {
+        int result = num1 + num2;
+        return result;
+    }
+
 }
