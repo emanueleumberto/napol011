@@ -42,7 +42,7 @@ public class Main {
         //testList();
         //testSet();
         //testQueue();
-        testMap();
+        //testMap();
 
     }
 
@@ -89,6 +89,7 @@ public class Main {
         int size = l.size();
         System.out.println("List size: " + size);
 
+        // Metodi di List
         String ele = l.get(1);
         System.out.println("Element index 1: " + ele);
 
@@ -223,7 +224,7 @@ public class Main {
 
         m.clear();
         isEmp = m.isEmpty();
-        System.out.println("MAp isEmpy?: " + isEmp);
+        System.out.println("Map isEmpy?: " + isEmp);
 
     }
 }
