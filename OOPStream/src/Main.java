@@ -147,6 +147,37 @@ public class Main {
         numberRandom.forEach(System.out::println);
 
         //myStreamRand.forEach(System.out::println);
+
+        // Collectors
+        // Collectors.toSet() -> Raccoglie tutti i dati manipolati da uno Stream in un Set
+        // Collectors.toList() -> Raccoglie tutti i dati manipolati da uno Stream in una Lista
+        // Collectors.toMap() -> Raccoglie tutti i dati manipolati da uno Stream in un Map
+        //                      specificando Chiave e valore
+        // Collectors.groupingBy() -> Raggruppa gli elementi di uno Stream in una mappain cui
+        //                          la chiave sarà la proprietà per il quale voglio raggruppare e
+        //                          il valore sarà una lista di elementi raggruppati
+        // Collectors.summingInt() -> Calcola la somma di valori int contenuti in uno Stream
+        // Collectors.summingLong() -> Calcola la somma di valori long contenuti in uno Stream
+        // Collectors.summingDouble() -> Calcola la somma di valori double contenuti in uno Stream
+        // Collectors.averagingInt() -> Calcola la media di valori int contenuti in uno Stream
+        // Collectors.averagingLong() -> Calcola la media di valori long contenuti in uno Stream
+        // Collectors.averagingDouble() -> Calcola la media di valori double contenuti in uno Stream
+
+        // Comparators
+        // Comparator è un metodo per la gestione avanzata degli ordinamenti su uno Stream
+        // .sorted(Comparator.comparing(Oggetto::Proprieta))
+        // .sorted(Comparator.comparingInt(Oggetto::ProprietaInt))
+        // .sorted(Comparator.comparingLong(Oggetto::ProprietaLong))
+        // .sorted(Comparator.comparingDouble(Oggetto::ProprietaDouble))
+
+        // Mapping
+        // .mapToInt(Oggetto::ProprietaInt) -> Trasforma uno Stream di oggetti in uno Stream di interi
+        // .mapToLong(Oggetto::ProprietaLong) -> Trasforma uno Stream di oggetti in uno Stream di long
+        // .mapToDouble(Oggetto::ProprietaDouble) -> Trasforma uno Stream di oggetti in uno Stream di double
+        // .flatMap(obj -> obj.prop.stream()) -> Trasforma uno Stream di oggetti in uno Stream
+        //                                      di valori letti da una lista contenuta in una proprietà
+        //                                      di ogni songolo oggetto
+
     }
 
     public static void testLambdaFunction() {
