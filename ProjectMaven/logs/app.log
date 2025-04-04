@@ -1,0 +1,2 @@
+2025-04-04 11:52:17 [main] WARN  org.example.Main - Sono la dipendenza Logger
+2025-04-04 11:52:17 [main] ERROR org.example.Main - Sono la dipendenza Logger
