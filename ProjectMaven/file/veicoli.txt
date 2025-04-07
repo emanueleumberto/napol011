@@ -1,0 +1,15 @@
+PE950ES,Ford,SerieA,2004,
+ZU380TK,Mercedes,Fiesta,1997,Cambio Fari-Riparazione cambio
+IA245LY,Bmw,Abc,1998,Riparazione cambio-Cambio Fari-Riparazione cambio
+JD201YO,Ford,Punto,2008,Cambio Fari-Cambio Fari-Tagliando-Riparazione motore-Sostituzione Gomme-Riparazione motore-Cambio Fari
+SC542LH,Mercedes,Clio,1998,Riparazione cambio-Tagliando-Riparazione motore
+EF456GH,Ford,Fiesta,2016,Tagliando completo
+ZB145NC,Bmw,Fiesta,2003,Sostizione Batteria-Sostituzione Gomme-Sostizione Batteria
+QX529AM,Mercedes,Panda,2019,Riparazione motore-Sostizione Batteria-Sostituzione Gomme
+LP601JA,Bmw,Clio,2017,Tagliando
+TP291VT,Ford,Clio,1992,Riparazione cambio
+IK798SB,Fiat,Punto,2012,Tagliando completo
+DE804HH,Mercedes,Punto,2010,Riparazione motore-Riparazione cambio
+AB123CD,Fiat,Panda,2010,
+SY458WI,Bmw,Punto,2004,
+LB218FR,Mercedes,Punto,2016,

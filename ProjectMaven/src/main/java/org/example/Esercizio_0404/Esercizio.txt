@@ -56,6 +56,7 @@ Definire le seguenti classi:
 -> Creazione del programma principale
 
    Nel metodo main, realizzare un menu interattivo che permetta di:
+        Salvare i veicoli su file
         Caricare i veicoli da file
         Aggiungere un nuovo veicolo
         Rimuovere un veicolo per targa
@@ -63,7 +64,6 @@ Definire le seguenti classi:
         Cercare un veicolo per targa
         Filtrare i veicoli per marca
         Visualizzare tutti i veicoli
-        Salvare i veicoli su file
         Uscire
 
    Utilizzare Scanner per l’input utente e un ciclo while per gestire il menu.
