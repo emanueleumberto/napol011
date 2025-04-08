@@ -1,0 +1,24 @@
+git --version | git -v  		-----> Serve a verificare la versione di Git istallata
+
+git config --list 			-----> Lista di variabili globali istallate su git
+git config --global user.name "name" 	-----> Set della variabile globale user.name
+git config --global user.email "email" 	-----> Set della variabile globale user.email
+
+Working Directory -> Staging Area -> Local Repository -> Remote Repository (GitHub)
+
+git init 				-----> Crea una nuova repository sul mio pc
+git add nomeFile 			-----> Aggiungo il file nomeFile alla mia staging area
+git add . 				-----> Aggiungo tutti i file presenti nella cartella alla staging area
+
+git commit -m 'messaggio' 		-----> Salvo i file nella repository locale e aggiungo un messaggio
+
+git status 				-----> Restituisce lo stato della repository
+
+git branch -M main 			-----> Imposto il branch principale della mia repository remota
+git remote add origin miarepolink 	-----> Collego la mia repository locale alla mia repository remota
+git push -u origin main 		-----> Caricamento in remoto tutto il contenuto della repository locale
+
+git clone miarepolink			-----> Clonare in locale quello che è il contenuto di una repo remota
+
+git push				-----> Salvare le modifiche fatte in locale sulla repo remota
+git pull				-----> Scaricare in locale le modifiche effettuate da altri nella repo remota
