@@ -172,3 +172,42 @@ DROP TABLE librarydb.authors;
 -- 12. Eliminare il database LibraryDB.
 DROP DATABASE librarydb;
 
+
+
+-- Esercizio DML 
+-- Inserire dai 5 ai 10 valori corretti in ogni tabella del database librarydb testando le relazioni e i vincoli di ogni tabella
+-- Utilizzare le istruzioni INSERT, UPDATE, DELETE
+-- Inserire utenti nella tabella users
+-- Inserire dettagli utente nella tabella userdetails
+-- Inserire autori nella tabella authors
+-- Inserire libri nella tabella books
+-- Inserire i prestiti nella tabella loans
+-- Aggiornare indirizzo di un utente
+-- Aggiornare le informazioni di un libro
+-- Aggiornare le informazioni sulla tabella prestiti
+
+-- Esercizio DQL 
+-- Recuperare Dati con Query (SELECT)
+-- 1. Visualizzare tutti gli utenti e i loro dettagli
+-- 2. Mostrare tutti i libri e i rispettivi autori 
+-- 3. Recuperare tutti i prestiti con nomi degli utenti e titoli dei libri
+-- 4. Trovare tutti i libri non ancora restituiti
+-- 5. Contare quanti libri ha scritto ogni autore
+-- 6. Trovare gli utenti che hanno preso in prestito almeno 2 libri
+-- 7. Trovare tutti i libri pubblicati dopo il 2000
+-- 8. Trovare gli utenti che vivono in una città specifica
+-- 9. Recuperare tutti i prestiti effettuati in un determinato intervallo di date
+-- 10. Recuperare i libri scritti da un autore specifico (es. "J.K. Rowling")
+-- 11. Elenco dei libri ordinato per anno di pubblicazione (dal più recente al più vecchio)
+-- 12. Elenco dei prestiti ordinato per data di prestito (dal più recente)
+-- 13. Contare quanti libri ci sono nella libreria
+-- 14. Trovare l'anno di pubblicazione più vecchio e più recente dei libri
+-- 15. Trovare gli utenti che hanno preso in prestito più di un libro
+
+-- EXTRA
+-- 16. Trovare gli utenti che hanno preso in prestito il libro più recente
+-- 17. Trovare gli utenti che hanno preso in prestito il libro più recente tra quelli presi in prestito
+-- 18. Trovare gli autori che non hanno ancora pubblicato libri
+-- 19. Recuperare i prestiti con il numero totale di prestiti per utente
+
+
