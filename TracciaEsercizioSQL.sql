@@ -173,7 +173,6 @@ DROP TABLE librarydb.authors;
 DROP DATABASE librarydb;
 
 
-
 -- Esercizio DML 
 -- Inserire dai 5 ai 10 valori corretti in ogni tabella del database librarydb testando le relazioni e i vincoli di ogni tabella
 -- Utilizzare le istruzioni INSERT, UPDATE, DELETE
@@ -210,4 +209,185 @@ DROP DATABASE librarydb;
 -- 18. Trovare gli autori che non hanno ancora pubblicato libri
 -- 19. Recuperare i prestiti con il numero totale di prestiti per utente
 
+USE librarydb;
+-- Inserire utenti nella tabella users
+INSERT INTO librarydb.users (name, email) 
+	VALUES 	("Mario Rossi", "m.rossi@example.com"),
+			("Giuseppe Verdi", "g.verdi@example.com"),
+			("Francesca Neri", "f.neri@example.com"),
+			("Antonio Bianchi", "a.bianchi@example.com"),
+			("Giorgia Viola", "g.viola@example.com");
+    
+    
+-- Inserire dettagli utente nella tabella userdetails
+INSERT INTO librarydb.userdetails (address, phone_number) 
+	VALUES 	("Via Roma 5", "369852147"),
+			("Corso Italia 21", "321654987"),
+			("Piazza Duomo 3", "333654789"),
+			("Via Marconi 8", "321777888"),
+			("Piazza Venezia 33", "339665221");
+            
+UPDATE librarydb.userdetails AS d SET address = "Via Roma 5 Napoli" WHERE d.user_id = 1;
+UPDATE librarydb.userdetails AS d SET address = "Corso Italia 21 Milano" WHERE d.user_id = 2;
+UPDATE librarydb.userdetails AS d SET address = "Piazza Duomo 3 Milano" WHERE d.user_id = 3;
+UPDATE librarydb.userdetails AS d SET address = "Via Marconi 8 Roma" WHERE d.user_id = 4;
+UPDATE librarydb.userdetails AS d SET address = "Piazza Venezia 33 Roma" WHERE d.user_id = 5;
 
+-- Inserire autori nella tabella authors
+INSERT INTO librarydb.authors (name, birth_year) 
+	VALUES 	('Umberto Eco', 1932),
+			('J.K. Rowling', 1965),
+			('George Orwell', 1903),
+			('Davide Bacchi', 1968),
+			('Anna Salvati', 1948);
+INSERT INTO librarydb.authors (name, birth_year)
+	VALUES  ('Mario Rossi', 2000);
+
+-- Inserire libri nella tabella books
+INSERT INTO librarydb.books (title, publication_year, isbn, genre, author_id) 
+	VALUES 	('Il Nome della Rosa', 1980, '978-88-061', 'romanzo', 1),
+			('Harry Potter e la Pietra Filosofale', 1997, '978-88-092', 'fantasy', 2),
+			('1984', 1949, '978-45-228', 'romanzo', 3),
+			('Animali Fantastici e Dove Trovarli', 2001, '978-88-090', 'fantasy', 2),
+			('La ricerca. Ori Miradha', 2014, '978-88-911', 'fantasy',  5),
+			('Le terrecotte della donazione Guandalini Kabaivanska', 2024, '883-36-469', 'storico', 4);
+
+-- Inserire i prestiti nella tabella loans
+INSERT INTO librarydb.loans (user_id, book_id, loan_date, return_date) 
+	VALUES  (2,1,"2024-12-28", "2025-01-15"),
+			(4,3,"2025-02-13", null),
+            (2,4,"2025-03-12", "2025-03-15"),
+            (5,2,"2025-03-28", "2025-04-08"),
+            (1,1,"2025-04-02", null);
+
+-- Aggiornare indirizzo di un utente
+UPDATE librarydb.userdetails SET address = 'Via Garibaldi 99' WHERE user_id = 4;
+-- Aggiornare le informazioni di un libro
+UPDATE librarydb.books SET publication_year = 2000 WHERE book_id = 4;
+-- Aggiornare le informazioni sulla tabella prestiti
+UPDATE librarydb.loans SET return_date = '2025-04-09' WHERE loan_id = 5;
+
+SELECT * FROM librarydb.users;
+SELECT * FROM librarydb.userdetails;
+SELECT * FROM librarydb.books;
+SELECT * FROM librarydb.authors;
+SELECT * FROM librarydb.loans;
+
+-- 1. Visualizzare tutti gli utenti e i loro dettagli
+SELECT u.user_id, name, email, address, phone_number 
+	FROM librarydb.users AS u 
+    INNER JOIN librarydb.userdetails as d 
+    ON u.user_id = d.user_id;
+    
+-- 2. Mostrare tutti i libri e i rispettivi autori
+SELECT b.book_id, b.title, b.publication_year, b.genre, b.isbn, a.name, a.birth_year 
+	FROM librarydb.books AS b 
+    LEFT JOIN librarydb.authors AS a
+    ON b.author_id = a.author_id;
+
+-- 3. Recuperare tutti i prestiti con nomi degli utenti e titoli dei libri
+SELECT u.name, b.title, l.loan_date, l.return_date 
+	FROM librarydb.loans AS l 
+    INNER JOIN librarydb.users AS u ON l.user_id = u.user_id
+    INNER JOIN librarydb.books AS b ON l.book_id = b.book_id;
+
+-- 4. Trovare tutti i libri non ancora restituiti
+SELECT b.title, l.loan_date, l.return_date, u.name
+	FROM librarydb.loans AS l
+    INNER JOIN librarydb.books AS b ON l.book_id = b.book_id
+    INNER JOIN librarydb.users AS u ON l.user_id = u.user_id
+    WHERE l.return_date IS NULL;
+
+-- 5. Contare quanti libri ha scritto ogni autore
+SELECT a.name, COUNT(*)
+	FROM librarydb.books AS b
+    INNER JOIN librarydb.authors AS a
+    ON b.author_id = a.author_id
+    GROUP BY a.name;
+
+-- 6. Trovare gli utenti che hanno preso in prestito almeno 2 libri
+SELECT u.name, COUNT(*) AS total_loans
+	FROM librarydb.users AS u
+    INNER JOIN librarydb.loans AS l
+    ON l.user_id = u.user_id
+    GROUP BY u.name
+    HAVING COUNT(*) >= 2;
+
+-- 7. Trovare tutti i libri pubblicati dopo il 2000
+SELECT b.title, b.publication_year, b.genre 
+	FROM librarydb.books AS b 
+    WHERE b.publication_year > 2000;
+
+-- 8. Trovare gli utenti che vivono in una città specifica
+SELECT * 
+	FROM librarydb.users AS u
+    INNER JOIN librarydb.userdetails AS d
+    ON u.user_id = d.user_id
+    WHERE d.address LIKE "%Roma";
+
+-- 9. Recuperare tutti i prestiti effettuati in un determinato intervallo di date
+SELECT l.loan_date, u.name, b.title
+	FROM librarydb.loans AS l
+    LEFT JOIN librarydb.users AS u ON l.user_id = u.user_id
+    LEFT JOIN librarydb.books AS b ON l.book_id = b.book_id
+    WHERE l.loan_date BETWEEN '2025-02-01' AND '2025-03-30';
+
+-- 10. Recuperare i libri scritti da un autore specifico (es. "J.K. Rowling")
+SELECT b.title, b.publication_year, b.genre, b.isbn, a.name
+	FROM librarydb.books AS b
+    INNER JOIN librarydb.authors AS a ON b.author_id = a.author_id
+    WHERE a.name = "J.K. Rowling";
+
+-- 11. Elenco dei libri ordinato per anno di pubblicazione (dal più recente al più vecchio)
+SELECT * FROM librarydb.books AS b ORDER BY b.publication_year DESC;
+
+-- 12. Elenco dei prestiti ordinato per data di prestito (dal più recente)
+SELECT l.loan_date, u.name, b.title 
+	FROM librarydb.loans AS l 
+    LEFT JOIN librarydb.users AS u ON l.user_id = u.user_id
+    LEFT JOIN librarydb.books AS b ON l.book_id = b.book_id
+    ORDER BY l.loan_date DESC;
+
+-- 13. Contare quanti libri ci sono nella libreria
+SELECT COUNT(*) AS total_books FROM librarydb.books;
+
+-- 14. Trovare l'anno di pubblicazione più vecchio e più recente dei libri
+SELECT MIN(b.publication_year) AS oldest_book, MAX(b.publication_year) AS newest_book 
+	FROM librarydb.books AS b;
+
+-- 15. Trovare gli utenti che hanno preso in prestito più di un libro
+SELECT u.name, COUNT(*) AS total_loans 
+	FROM librarydb.loans AS l
+	INNER JOIN librarydb.users AS u ON l.user_id = u.user_id
+    GROUP BY u.name
+    HAVING COUNT(*) > 1;
+
+-- EXTRA
+-- 16. Trovare gli utenti che hanno preso in prestito il libro più recente tra quelli presi in prestito
+SELECT u.name, b.title, b.publication_year 
+	FROM librarydb.loans AS l 
+    INNER JOIN librarydb.users AS u ON l.user_id = u.user_id
+    INNER JOIN librarydb.books AS b ON l.book_id = b.book_id
+    WHERE b.publication_year = (SELECT MAX(b.publication_year) 
+									FROM librarydb.loans AS l 
+                                    INNER JOIN librarydb.books as b 
+                                    ON l.book_id = b.book_id);
+    
+SELECT * FROM librarydb.loans;
+SELECT * FROM librarydb.books;
+SELECT MAX(b.publication_year) FROM librarydb.books AS b;
+SELECT MAX(b.publication_year) FROM librarydb.loans AS l INNER JOIN librarydb.books as b ON l.book_id = b.book_id;
+
+
+-- 17. Trovare gli autori che non hanno ancora pubblicato libri
+SELECT a.name, a.birth_year, b.book_id 
+	FROM librarydb.authors AS a 
+    LEFT JOIN librarydb.books AS b ON b.author_id = a.author_id
+    WHERE b.book_id IS NULL;
+
+-- 18. Recuperare i prestiti con il numero totale di prestiti per utente
+SELECT u.name, COUNT(*) AS total_loans
+	FROM librarydb.loans AS l
+    INNER JOIN librarydb.users AS u
+    ON l.user_id = u.user_id
+    GROUP BY u.name;
