@@ -11,6 +11,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class OrdineDAO {
@@ -79,5 +80,16 @@ public class OrdineDAO {
 
     public void eliminaOrdine(Ordine o) {}
 
-    public List<Ordine> leggiTuttiOrdini() { return null; }
+    public List<Ordine> leggiTuttiOrdini() throws SQLException {
+        String sql = "SELECT id_ordine FROM ordini";
+        PreparedStatement ps = DBConnection.getInstance().getConn().prepareStatement(sql);
+        ResultSet rs = ps.executeQuery();
+        List<Ordine> listaOrdini = new ArrayList<Ordine>();
+        while (rs.next()) {
+            int idOrdine = rs.getInt("id_ordine");
+            Ordine o = leggiOrdine(idOrdine);
+            listaOrdini.add(o);
+        }
+        return listaOrdini;
+    }
 }
