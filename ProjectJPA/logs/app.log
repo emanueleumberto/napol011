@@ -1,0 +1,401 @@
+2025-04-16 11:39:49 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 11:39:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 11:39:49 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 11:39:49 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 11:39:49 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 11:39:49 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 11:39:49 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 11:39:49 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 11:39:50 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 11:39:50 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38cedb7d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 11:39:51 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 11:39:51 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Eusebio Marino salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Battista Basile salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Moreno Ferrari salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Ettore Mancini salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Rosalba Palumbo salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Modesto Bellini salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Eriberto De rosa salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Antimo Giuliani salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Armando Morelli salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Sandro D'amico salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 11:39:51 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 11:39:51 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 11:39:51 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 11:39:51 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 11:39:51 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 11:39:51 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 11:39:51 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@32dcfeea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 11:39:51 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 11:39:51 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Intelligent Leather Shoes salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Fantastic Rubber Shirt salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Sleek Leather Shoes salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Small Marble Table salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Small Leather Car salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Small Bronze Hat salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Incredible Iron Clock salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Aerodynamic Wool Shirt salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Small Concrete Keyboard salvato nel DB!
+2025-04-16 11:39:51 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Practical Bronze Computer salvato nel DB!
+2025-04-16 11:41:40 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 11:41:40 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 11:41:40 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 11:41:40 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 11:41:40 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 11:41:40 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 11:41:40 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 11:41:40 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 11:41:41 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 11:41:41 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38cedb7d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 11:41:42 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 11:41:42 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Edipo Galli salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Lia Neri salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Leone Vitale salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Lazzaro Serr salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Costantino Bruno salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Marcella Pellegrino salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Fabiano Negri salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Violante Palmieri salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Gianleonardo Marian salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Mariapia Barbieri salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 11:41:42 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 11:41:42 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 11:41:42 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 11:41:42 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 11:41:42 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 11:41:42 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 11:41:42 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@32dcfeea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 11:41:42 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 11:41:42 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Sleek Concrete Bottle salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Heavy Duty Marble Plate salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Enormous Wooden Wallet salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Incredible Plastic Hat salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Enormous Rubber Plate salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Gorgeous Cotton Clock salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Small Linen Coat salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Practical Steel Wallet salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Incredible Linen Plate salvato nel DB!
+2025-04-16 11:41:42 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Mediocre Wool Table salvato nel DB!
+2025-04-16 11:42:07 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 11:42:08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 11:42:08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 11:42:08 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 11:42:08 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 11:42:08 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 11:42:08 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 11:42:08 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 11:42:08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 11:42:09 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38cedb7d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 11:42:09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 11:42:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 11:42:09 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 11:42:09 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 11:42:09 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 11:42:09 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 11:42:09 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 11:42:09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 11:42:09 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@235c997d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 11:42:09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 15:55:31 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'data_ordine' cannot be null
+2025-04-16 16:29:57 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:29:57 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 16:29:58 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 16:29:58 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:29:58 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:29:58 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:29:58 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:29:58 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:29:58 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:29:59 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7b2ccba5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:29:59 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:29:59 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:29:59 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:29:59 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:29:59 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:29:59 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:29:59 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:29:59 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:29:59 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@21390938] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:29:59 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:30:00 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:30:00 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:30:00 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:30:00 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:30:00 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:30:00 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:30:00 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:30:00 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2725ca05] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:30:00 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:30:00 [main] INFO  org.example.esercizio.dao.OrdineDAO - Ordine 2 salvato nel DB!
+2025-04-16 16:35:02 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:35:02 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 16:35:02 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 16:35:03 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:35:03 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:35:03 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:35:03 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:35:03 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:35:03 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:35:04 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@64f9f455] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:35:04 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:35:04 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:35:04 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:35:04 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:35:04 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:35:04 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:35:04 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:35:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:35:04 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1a531422] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:35:04 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:35:04 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:35:04 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:35:04 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:35:04 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:35:04 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:35:04 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:35:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:35:04 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@43d76a92] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:35:04 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:35:04 [main] INFO  org.example.esercizio.dao.OrdineDAO - Ordine 3 salvato nel DB!
+2025-04-16 16:35:04 [main] INFO  org.example.esercizio.dao.OrdineDAO - Dettaglio Ordine 1 salvato nel DB!
+2025-04-16 16:36:15 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:36:15 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 16:36:16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 16:36:16 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:36:16 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:36:16 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:36:16 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:36:16 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:36:16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:36:17 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@64f9f455] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:36:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:36:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:36:18 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:36:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:36:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:36:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:36:18 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:36:18 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:36:18 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5d124d29] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:36:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:36:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:36:18 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:36:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:36:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:36:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:36:18 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:36:18 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:36:18 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@43d76a92] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:36:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:36:18 [main] INFO  org.example.esercizio.dao.OrdineDAO - Ordine 1 salvato nel DB!
+2025-04-16 16:36:18 [main] INFO  org.example.esercizio.dao.OrdineDAO - Dettaglio Ordine 1 salvato nel DB!
+2025-04-16 16:54:38 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:54:38 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 16:54:38 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 16:54:39 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:54:39 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:54:39 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:54:39 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:54:39 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:54:39 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:54:40 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7b5b5bfe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:54:41 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:54:41 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Filomena Bellini salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Bernardo Riva salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Emilia De rosa salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Vera Orlando salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Carlo Silvestri salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Renato Parisi salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Audenico Ross salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Artemide Esposito salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Prisca Messina salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Pericle Bruno salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:54:41 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:54:41 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:54:41 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:54:41 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:54:41 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:54:41 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:54:41 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ace919c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:54:41 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:54:41 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Small Paper Plate salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Incredible Aluminum Lamp salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Lightweight Concrete Knife salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Sleek Steel Chair salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Intelligent Linen Wallet salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Sleek Steel Shoes salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Rustic Steel Clock salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Lightweight Cotton Bench salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Mediocre Bronze Hat salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Synergistic Concrete Watch salvato nel DB!
+2025-04-16 16:54:41 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 16:54:41 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 16:54:41 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 16:54:41 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 16:54:41 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 16:54:41 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 16:54:41 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 16:54:42 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@40fcaae7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 16:54:42 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 16:54:42 [main] INFO  org.example.esercizio.dao.OrdineDAO - Ordine 1 salvato nel DB!
+2025-04-16 16:54:42 [main] INFO  org.example.esercizio.dao.OrdineDAO - Dettaglio Ordine 1 salvato nel DB!
+2025-04-16 16:54:42 [main] INFO  org.example.esercizio.dao.OrdineDAO - Ordine 2 salvato nel DB!
+2025-04-16 16:54:42 [main] INFO  org.example.esercizio.dao.OrdineDAO - Dettaglio Ordine 2 salvato nel DB!
+2025-04-16 16:54:42 [main] INFO  org.example.esercizio.dao.OrdineDAO - Ordine 3 salvato nel DB!
+2025-04-16 16:54:42 [main] INFO  org.example.esercizio.dao.OrdineDAO - Dettaglio Ordine 3 salvato nel DB!
+2025-04-16 17:02:35 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:02:35 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 17:02:36 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 17:02:36 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:02:36 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:02:36 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:02:36 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:02:36 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:02:36 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:02:37 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7b5b5bfe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:02:38 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:02:38 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Doriana Palmieri salvato nel DB!
+2025-04-16 17:02:38 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Carlo Martino salvato nel DB!
+2025-04-16 17:02:38 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Ivonne Giordano salvato nel DB!
+2025-04-16 17:02:38 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Gianmaria Russo salvato nel DB!
+2025-04-16 17:02:38 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Ninfa De luca salvato nel DB!
+2025-04-16 17:02:38 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Teseo D'amico salvato nel DB!
+2025-04-16 17:02:38 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Eusebio Orlando salvato nel DB!
+2025-04-16 17:02:38 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Gianriccardo Sorrentino salvato nel DB!
+2025-04-16 17:02:38 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Flavio Negri salvato nel DB!
+2025-04-16 17:02:38 [main] INFO  org.example.esercizio.dao.ClienteDAO - Cliente Tancredi Gentile salvato nel DB!
+2025-04-16 17:02:38 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:02:38 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:02:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:02:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:02:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:02:38 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:02:38 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:02:39 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ace919c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:02:39 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:02:39 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Practical Leather Wallet salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Practical Rubber Shoes salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Gorgeous Paper Coat salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Gorgeous Copper Keyboard salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Heavy Duty Concrete Bench salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Sleek Iron Bench salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Rustic Wooden Bag salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Heavy Duty Bronze Gloves salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Heavy Duty Iron Chair salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  o.example.esercizio.dao.ProdottoDAO - Prodotto Rustic Marble Shirt salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:02:39 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:02:39 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:02:39 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:02:39 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:02:39 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:02:39 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:02:39 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@40fcaae7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:02:39 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:02:39 [main] INFO  org.example.esercizio.dao.OrdineDAO - Ordine 1 salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  org.example.esercizio.dao.OrdineDAO - Dettaglio Ordine 1 salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  org.example.esercizio.dao.OrdineDAO - Dettaglio Ordine 2 salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  org.example.esercizio.dao.OrdineDAO - Dettaglio Ordine 3 salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  org.example.esercizio.dao.OrdineDAO - Ordine 2 salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  org.example.esercizio.dao.OrdineDAO - Dettaglio Ordine 4 salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  org.example.esercizio.dao.OrdineDAO - Ordine 3 salvato nel DB!
+2025-04-16 17:02:39 [main] INFO  org.example.esercizio.dao.OrdineDAO - Dettaglio Ordine 5 salvato nel DB!
+2025-04-16 17:05:36 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:05:36 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 17:05:37 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 17:05:37 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:05:37 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:05:37 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:05:37 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:05:37 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:05:37 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:05:38 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7b5b5bfe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:05:38 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:05:38 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:05:38 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:05:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:05:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:05:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:05:38 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:05:38 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:05:38 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6db328f8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:05:38 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:05:38 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:05:38 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:05:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:05:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:05:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:05:38 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:05:38 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:05:39 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2c9306d3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:05:39 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:09:16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:09:16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 17:09:16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 17:09:16 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:09:16 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:09:16 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:09:16 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:09:16 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:09:17 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:09:18 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7b5b5bfe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:09:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:09:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:09:18 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:09:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:09:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:09:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:09:18 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:09:18 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:09:18 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6db328f8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:09:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:09:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:09:18 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:09:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:09:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:09:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:09:18 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:09:18 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:09:18 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2c9306d3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:09:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:10:10 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:10:10 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-16 17:10:10 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-16 17:10:11 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:10:11 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:10:11 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:10:11 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:10:11 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:10:11 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:10:12 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7b5b5bfe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:10:12 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:10:12 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:10:12 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:10:12 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:10:12 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:10:12 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:10:12 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:10:12 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:10:12 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6db328f8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:10:12 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:10:12 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: projectJPA]
+2025-04-16 17:10:12 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-04-16 17:10:12 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/napol011jpa_gestioneordini]
+2025-04-16 17:10:12 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2025-04-16 17:10:12 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-04-16 17:10:12 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-04-16 17:10:12 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-16 17:10:12 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2c9306d3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-04-16 17:10:12 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-16 17:27:11 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`napol011jpa_gestioneordini`.`dettagli_ordini`, CONSTRAINT `dettaglio_ordini_ordine_fk` FOREIGN KEY (`id_ordine`) REFERENCES `ordini` (`id_ordine`))
+2025-04-16 17:32:44 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`napol011jpa_gestioneordini`.`ordini`, CONSTRAINT `ordini_clienti_fk` FOREIGN KEY (`id_cliente`) REFERENCES `clienti` (`id_cliente`))
+2025-04-16 17:36:44 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`napol011jpa_gestioneordini`.`ordini`, CONSTRAINT `ordini_clienti_fk` FOREIGN KEY (`id_cliente`) REFERENCES `clienti` (`id_cliente`))
+2025-04-16 17:39:18 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`napol011jpa_gestioneordini`.`dettagli_ordini`, CONSTRAINT `dettaglio_ordini_ordine_fk` FOREIGN KEY (`id_ordine`) REFERENCES `ordini` (`id_ordine`))
+2025-04-16 17:46:06 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`napol011jpa_gestioneordini`.`ordini`, CONSTRAINT `ordini_clienti_fk` FOREIGN KEY (`id_cliente`) REFERENCES `clienti` (`id_cliente`))
+2025-04-16 17:46:47 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`napol011jpa_gestioneordini`.`ordini`, CONSTRAINT `ordini_clienti_fk` FOREIGN KEY (`id_cliente`) REFERENCES `clienti` (`id_cliente`))
+2025-04-16 17:47:40 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`napol011jpa_gestioneordini`.`ordini`, CONSTRAINT `ordini_clienti_fk` FOREIGN KEY (`id_cliente`) REFERENCES `clienti` (`id_cliente`))
+2025-04-16 17:54:40 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`napol011jpa_gestioneordini`.`ordini`, CONSTRAINT `ordini_clienti_fk` FOREIGN KEY (`id_cliente`) REFERENCES `clienti` (`id_cliente`))
+2025-04-16 17:59:03 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`napol011jpa_gestioneordini`.`dettagli_ordini`, CONSTRAINT `dettaglio_ordini_ordine_fk` FOREIGN KEY (`id_ordine`) REFERENCES `ordini` (`id_ordine`))

@@ -3,8 +3,8 @@ package org.example.entities;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
-
-@Entity
+/*
+@Entity*/
 @Table(name = "users")
 @NamedQuery(name = "User.findAll", query = "SELECT u FROM User u")
 /*@NamedQuery(name = "User.findAllCity", query = "SELECT u FROM User u WHERE u.city = :city")*/
