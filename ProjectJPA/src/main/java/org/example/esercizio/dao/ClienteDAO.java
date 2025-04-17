@@ -12,7 +12,6 @@ import javax.persistence.Query;
 import java.util.List;
 import java.util.Locale;
 
-
 public class ClienteDAO {
 
     private static Logger log = LoggerFactory.getLogger(ClienteDAO.class);
