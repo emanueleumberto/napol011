@@ -23,6 +23,8 @@ public class DBConnection {
         createTableProdotti();
         createTableOrdini();
         createTableDettagliOrdine();
+        st.close();
+        conn.close();
     }
 
     public static DBConnection getInstance() throws SQLException {
