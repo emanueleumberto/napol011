@@ -56,5 +56,4 @@ public class AuthController {
         redirect.addFlashAttribute("utente", utente);
         return "redirect:dashboard";
     }
-
 }
