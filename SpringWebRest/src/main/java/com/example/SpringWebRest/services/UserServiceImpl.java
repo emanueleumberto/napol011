@@ -51,6 +51,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public String removeUserById(Long id) {
+        userDAORepository.deleteById(id);
+        return "User deleted!";
+    }
+
+    @Override
     public List<User> findAll() {
         return userDAORepository.findAll();
     }

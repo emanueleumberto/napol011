@@ -1,4 +1,4 @@
-package com.example.SpringWebRest.models;
+package com.example.EsercizioGestioneProdotti.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -6,26 +6,25 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Builder
 @Entity
-@Table(name = "users")
-public class User {
+@Table(name = "products")
+public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(nullable = false)
-    private String firstname;
+    private String name;
+    private String description;
     @Column(nullable = false)
-    private String lastname;
-    private String city;
-    private Integer age;
-    @Column(nullable = false, unique = true)
-    private String email;
-    @Column(nullable = false)
-    private String password;
+    private BigDecimal price;
+    private LocalDateTime createdAt = LocalDateTime.now();
 
 }

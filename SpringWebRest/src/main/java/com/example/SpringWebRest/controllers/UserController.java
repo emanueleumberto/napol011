@@ -95,4 +95,13 @@ public class UserController {
             return new ResponseEntity<String>(e.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
+
+    @DeleteMapping("/{id}/delete")
+    public ResponseEntity<?> deleteUserById(@PathVariable Long id){
+        try{
+            return new ResponseEntity<String>(userService.removeUserById(id), HttpStatus.OK);
+        } catch (NoSuchElementException e) {
+            return new ResponseEntity<String>(e.getMessage(), HttpStatus.NOT_FOUND);
+        }
+    }
 }
